@@ -4,7 +4,7 @@
     $findme = 'abc'; #findmeをABCにする
     $pos = strpos($line, $findme); #strpos関数を使う
 
-    if( $pos !== false){ #posがfalseならlineを表示する
+    if( $pos !== false){ #posがfalseでないならlineを表示する
       echo "$line";
     }
   }
